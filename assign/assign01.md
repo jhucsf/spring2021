@@ -210,8 +210,9 @@ Here are some guidelines and hints to help you develop effective unit tests.
 *Test corner cases.*  Test for situations such as:
 
 * Operations on `ApInt` values with varying bit string lengths
-* Left shifts of varying lengths
 * Adding `ApInt` instances with different-length bit strings
+* Subtracting `ApInt` instances with different-length bit strings
+* Additions and subtractions with various combinations of non-negative and negative operands, and which produce both non-negative and negative result values
 
 *Generate test cases programmatically.*  Write a script or program to generate large random integer values in hexadecimal format, generate test code to test operations on these values, and add them to your unit test program.  For example, here is a script-generated test for the `apint_add` function:
 
