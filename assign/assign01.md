@@ -104,6 +104,7 @@ int apint_is_negative(const ApInt *ap);
 uint64_t apint_get_bits(const ApInt *ap, unsigned n);
 int apint_highest_bit_set(const ApInt *ap);
 char *apint_format_as_hex(const ApInt *ap);
+ApInt *apint_negate(const ApInt *ap);
 ApInt *apint_add(const ApInt *a, const ApInt *b);
 ApInt *apint_sub(const ApInt *a, const ApInt *b);
 int apint_compare(const ApInt *left, const ApInt *right);
@@ -128,6 +129,8 @@ Here are brief descriptions of the expected behavior of these functions.
 `apint_highest_bit_set`: Returns the position of the most significant bit set to 1 in representation of the `ApInt` pointed to by `ap`. As a special case, returns -1 if the `ApInt` instance pointed to by `ap` represents the value 0.  Like `apint_get_bits`, this function should ignore the `ApInt`'s sign.
 
 `apint_format_as_hex`: Returns a pointer to a dynamically-allocated C character string containing the hexadecimal (base 16) digits of the representation of the `ApInt` instance pointed to by `ap`.  Note that the hex digits representing the values 10 through 15 should be *lower-case* `a` through `f`.  The string returned should not have any leading zeroes, except in the special case of the `ApInt` instance representing the value 0, in which case the returned string should consist of a single `0` digit.  If the `ApInt` is negative, the string returned should have a leading `-` character.
+
+`apint_negate`: Returns a new `ApInt` instance with the opposite sign from the one passed as the parameter.  As a special case, if the `ApInt` passed is numerically equal to zero, then an `ApInt` instance representing an identical (zero) value should be returned.
 
 `apint_add`: Computes the sum `a` plus `b`, and returns a pointer to an `ApInt` instance representing the sum.  Note that either or both of the operand values could be negative.
 
