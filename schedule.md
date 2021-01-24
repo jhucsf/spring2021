@@ -17,10 +17,10 @@ Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic/Slides | Reading | Assignment
 Jan 25             | Course overview, binary data representation review: [slides](lectures/lecture01-public.pdf) | 1.1–1.9
 Jan 27              | Data representation, addresses: [slides](lectures/lecture02-public.pdf) | 2.1
 Jan 29              | Integer representation: [slides](lectures/lecture03-public.pdf) | 2.2
-Feb 1              | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | 2.3 |
+Feb 1              | Integer arithmetic: [slides](lectures/lecture04-public.pdf) | 2.3 | A1, MS1 due Tues 2/2
 Feb 3              | Floating point: [slides](lectures/lecture05-public.pdf) | 2.4 |
 Feb 5              | Machine-level program representation: [slides](lectures/lecture06-public.pdf) | 3.1–3.4 |
-Feb 8              | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | 3.5
+Feb 8              | ALU operations, arithmetic: [slides](lectures/lecture07-public.pdf), [alu.zip (example code)](lectures/alu.zip) | 3.5 | A1, MS2 due Tues 2/9
 Feb 10             | Control flow: [slides](lectures/lecture08-public.pdf), [control.zip (example code)](lectures/control.zip) | 3.6 |
 Feb 12             | Procedures, stacks: [slides](lectures/lecture09-public.pdf), [control2.zip (example code)](lectures/control2.zip) | 3.7
 Feb 15             | Review session, **Exam 1** (take-home)
@@ -33,8 +33,8 @@ Mar 1              | Program optimization (ILP, memory, profiling): see Piazza f
 Mar 3              | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | 6.1–6.3 | 
 Mar 5              | Cache policies: [slides](lectures/lecture16-public.pdf) | 6.4
 Mar 8              | Caches and program execution: see Piazza for slides | 6.5 |
-Mar 10             | Linking basics, symbols, relocations, executables, loading: [slides](lectures/lecture18-public.pdf) | 7.1–7.9 |
-Mar 12             | Review session, **Exam 2** (take-home)
+Mar 10             | Review session, **Exam 2** (take-home)
+Mar 12             | Linking basics, symbols, relocations, executables, loading: [slides](lectures/lecture18-public.pdf) | 7.1–7.9 |
 Mar 15             | Dynamic linking, shared libraries, PIC, interpositioning: [slides](lectures/lecture19-public.pdf), [dynload.zip (example code)](lectures/dynload.zip) | 7.10–7.15 |
 Mar 17             | Exceptions, Processes: [slides](lectures/lecture20-public.pdf) | 8.1–8.4, 8.7 |
 Mar 22             | *Spring break day, no class*
