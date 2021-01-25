@@ -19,4 +19,4 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
-* **Jan 25** — Welcome back!
+* **Jan 25** — Welcome back! [Assignment 1](assign/assign01.html) is posted, with milestones due on Feb 2nd and Feb 9th. It is a pair assignment.
