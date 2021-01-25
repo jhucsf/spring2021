@@ -3,25 +3,35 @@ layout: default
 title: "Assignment 1: Arbitrary-precision arithmetic"
 ---
 
-**Due:**
-
 Milestone 1: due by **Tuesday, Feb 2nd**
 
 Milestone 2: due by **Tuesday, Feb 9th**
+
+Assignment type: **Pair**, you may work with one partner
 
 # Overview
 
 In this assignment you will implement a simple C library for arbitrary-precision integer arithmetic.
 
+## Milestones, grading criteria
+
 The grading breakdown is as follows.
 
-For milestone 1:
+For Milestone 1:
 
-* Coming soon: milestone 1 grading breakdown
+* The code must compile, and all functions must be defined
+* `apint_create_from_u64`, `apint_get_bits`, `apint_negate`, `apint_is_zero`, and `apint_is_negative` should be working
+* `apint_add` and `apint_sub` should work in all cases where the magnitude of the operands and the result is less than 2<sup>64</sup> (i.e., all `ApInt` values will only require 1 `uint64_t` element to represent the value's bitstring)
 
-For milestone 2:
+Coming soon: detailed milestone 1 grading breakdown
 
-* Coming soon: milestone 2 grading breakdown
+For Milestone 2:
+
+* All functions should be completely working, including for operands and results with arbitrary magnitudes
+
+Note that it is critical that `apint_create_from_hex` and `apint_format_as_hex` work correctly for Milestone 2, because they will be used by the autograder to create and verify "large" `ApInt` values.
+
+Coming soon: detailed milestone 2 grading breakdown
 
 ## Getting started
 
