@@ -27,20 +27,17 @@ Head CAs:
 
 CAs:
 
-Coming soon!
-
-<!--
-* Adyant    Balaji [abalaji2@jhu.edu](mailto:abalaji2@jhu.edu)
-* Alison    Lee [alee231@jhu.edu](mailto:alee231@jhu.edu)
-* Charissa    Zou [czou9@jh.edu](mailto:czou9@jh.edu)
-* Dikshith (Bannu)    Kasimahanthi [dkasima1@jhu.edu](mailto:dkasima1@jhu.edu)
-* Jason    Kurlander [jkurlan3@jhu.edu](mailto:jkurlan3@jhu.edu)
-* Ryan    Rubel [rrubel1@jhu.edu](mailto:rrubel1@jhu.edu)
-* Simon    Allocca [sallocc1@jh.edu](mailto:sallocc1@jh.edu)
-* Yunxiao (Gary)    Yang [yyang117@jhu.edu](mailto:yyang117@jhu.edu)
-* Shravan Venkatesan [svenka16@jhu.edu](mailto:svenka16@jhu.edu)
-* David Skaff [dskaff1@jhu.edu](mailto:dskaff1@jhu.edu)
--->
+* Ryan Rubel <rrubel1@jhu.edu>
+* Bannu Kasimahanthi <dkasima1@jhu.edu>
+* Max Hahn <mhahn12@jhu.edu>
+* Aditya Balaji <abalaji2@jhu.edu>
+* David Skaff <dskaff1@jhu.edu>
+* Jason Kurlander <jkurlan3@jhu.edu>
+* Gary Yang <yyang117@jhu.edu>
+* Alexander Wei <awei11@jhu.edu>
+* Simon Allocca <sallocc1@jh.edu>
+* Daniel Weber <dweber11@jhu.edu>
+* Sabrina Li <sli159@jhu.edu>
 
 ## Meeting
 
