@@ -85,7 +85,15 @@ All of these are available by default on the Ugrad computers.
 
 To install on an Ubuntu-based system:
 
-> <code class="cmd">sudo apt-get install gcc g++ make ruby valgrind git</code>
+```
+sudo apt-get install gcc g++ make ruby valgrind git
+```
+
+You'll also want to install a text editor.  [Emacs](https://www.gnu.org/software/emacs/) and [Vim](https://www.vim.org/) are good options:
+
+```
+sudo apt-get install emacs vim
+```
 
 <!--
 To install on a Fedora system:
