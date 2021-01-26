@@ -9,6 +9,8 @@ Milestone 2: due by **Tuesday, Feb 9th**
 
 Assignment type: **Pair**, you may work with one partner
 
+*Update 1/26* — Detailed expectations and grading criteria for Milestone 1, require `README.txt` (see [Submitting](#submitting))
+
 # Overview
 
 In this assignment you will implement a simple C library for arbitrary-precision integer arithmetic.
@@ -17,15 +19,22 @@ In this assignment you will implement a simple C library for arbitrary-precision
 
 The grading breakdown is as follows.
 
-For Milestone 1:
+For Milestone 1 (20% of assignment grade):
 
 * The code must compile, and all functions must be defined
 * `apint_create_from_u64`, `apint_get_bits`, `apint_negate`, `apint_is_zero`, and `apint_is_negative` should be working
 * `apint_add` and `apint_sub` should work in all cases where the magnitude of the operands and the result is less than 2<sup>64</sup> (i.e., all `ApInt` values will only require 1 `uint64_t` element to represent the value's bitstring)
+* `apint_highest_bit_set` should work for all `ApInt` values where the magntude is less than 2<sup>64</sup>
+* `apint_compare` should work in all cases where the magnitude of the operands is less than 2<sup>64</sup>
 
-Coming soon: detailed milestone 1 grading breakdown
+Grading breakdown:
 
-For Milestone 2:
+* Code compiles: 1%
+* Your unit tests pass: 1%
+* Correct behavior with non-negative values: 11%
+* Correct behavior with negative and non-negative values: 7%
+
+For Milestone 2 (80% of assignment grade):
 
 * All functions should be completely working, including for operands and results with arbitrary magnitudes
 
@@ -296,11 +305,20 @@ To run valgrind, on your test program, the command is `valgrind ./apintTests`.
 
 # Submitting
 
+Before you submit, prepare a `README.txt` file so that it contains your names, and briefly summarizes each of your contributions to the submission (i.e., who worked on what functionality.)
+
 To submit your work:
 
-* Run the command `make solution.zip`
-* Upload `solution.zip` to [Gradescope](https://www.gradescope.com/) as **Assignment 1 MS1** or **Assignment 1 MS2**, depending on which milestone you are submitting
-* Please check the files you uploaded to make sure they are the ones you intended to submit
+Run the following commands to create a `solution.zip` file:
+
+```
+rm -f solution.zip
+zip -9r solution.zip Makefile *.h *.c README.txt
+```
+
+Upload `solution.zip` to [Gradescope](https://www.gradescope.com/) as **Assignment 1 MS1** or **Assignment 1 MS2**, depending on which milestone you are submitting.
+
+Please check the files you uploaded to make sure they are the ones you intended to submit.
 
 ## Autograder
 

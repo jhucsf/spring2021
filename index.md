@@ -19,4 +19,5 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Jan 26** — [Assignment 1](assign/assign01.html) has been updated with detailed grading criteria for Milestone 1, and an additional requirement (a `README.txt` file) to be included with your submission.
 * **Jan 25** — Welcome back! [Assignment 1](assign/assign01.html) is posted, with milestones due on Feb 2nd and Feb 9th. It is a pair assignment.
