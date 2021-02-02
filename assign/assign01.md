@@ -11,6 +11,8 @@ Assignment type: **Pair**, you may work with one partner
 
 *Update 1/26* — Detailed expectations and grading criteria for Milestone 1, require `README.txt` (see [Submitting](#submitting))
 
+*Update 2/2* — Detailed expectations and grading criteria for Milestone 2
+
 # Overview
 
 In this assignment you will implement a simple C library for arbitrary-precision integer arithmetic.
@@ -27,7 +29,7 @@ For Milestone 1 (20% of assignment grade):
 * `apint_highest_bit_set` should work for all `ApInt` values where the magntude is less than 2<sup>64</sup>
 * `apint_compare` should work in all cases where the magnitude of the operands is less than 2<sup>64</sup>
 
-Grading breakdown:
+Grading breakdown for MS1:
 
 * Code compiles: 1%
 * Your unit tests pass: 1%
@@ -40,7 +42,20 @@ For Milestone 2 (80% of assignment grade):
 
 Note that it is critical that `apint_create_from_hex` and `apint_format_as_hex` work correctly for Milestone 2, because they will be used by the autograder to create and verify "large" `ApInt` values.
 
-Coming soon: detailed milestone 2 grading breakdown
+Grading breakdown for MS2:
+
+* Code compiles: 1%
+* Your unit tests pass: 1%
+* `apint_highest_bit_set` works for small and large values: 10%
+* `apint_create_from_hex` works for small values: 5%
+* `apint_create_from_hex` works for large values: 5%
+* `apint_format_as_hex` works for small and large values: 10%
+* `apint_add` works for large values: 14%
+* `apint_sub` works for large values: 14%
+* Your unit tests are comprehensive (every function is tested, representative values are tested): 10%
+* Design and coding style: 10%
+
+Note that `apint_create_from_u64`, `apint_negate`, `apint_is_negative`, and `apint_is_zero` must work correctly for large and small values because they are used in the unit tests for the other functions.  Also note that all of the tests for "large values" require `apint_create_from_hex` to work correctly.
 
 ## Getting started
 
