@@ -13,6 +13,8 @@ Assignment type: **Pair**, you may work with one partner
 
 *Update 2/2* — Detailed expectations and grading criteria for Milestone 2
 
+*Update 2/3* — Updated detailed grading criteria for Milestone 2 to include `apint_compare`
+
 # Overview
 
 In this assignment you will implement a simple C library for arbitrary-precision integer arithmetic.
@@ -50,8 +52,9 @@ Grading breakdown for MS2:
 * `apint_create_from_hex` works for small values: 5%
 * `apint_create_from_hex` works for large values: 5%
 * `apint_format_as_hex` works for small and large values: 10%
-* `apint_add` works for large values: 14%
-* `apint_sub` works for large values: 14%
+* `apint_add` works for large values: 10%
+* `apint_sub` works for large values: 10%
+* `apint_compare` works for large values: 8%
 * Your unit tests are comprehensive (every function is tested, representative values are tested): 10%
 * Design and coding style: 10%
 
