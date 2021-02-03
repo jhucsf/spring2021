@@ -26,7 +26,7 @@ For Milestone 1 (20% of assignment grade):
 * The code must compile, and all functions must be defined
 * `apint_create_from_u64`, `apint_get_bits`, `apint_negate`, `apint_is_zero`, and `apint_is_negative` should be working
 * `apint_add` and `apint_sub` should work in all cases where the magnitude of the operands and the result is less than 2<sup>64</sup> (i.e., all `ApInt` values will only require 1 `uint64_t` element to represent the value's bitstring)
-* `apint_highest_bit_set` should work for all `ApInt` values where the magntude is less than 2<sup>64</sup>
+* `apint_highest_bit_set` should work for all `ApInt` values where the magnitude is less than 2<sup>64</sup>
 * `apint_compare` should work in all cases where the magnitude of the operands is less than 2<sup>64</sup>
 
 Grading breakdown for MS1:
