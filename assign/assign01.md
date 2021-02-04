@@ -13,7 +13,8 @@ Assignment type: **Pair**, you may work with one partner
 
 *Update 2/2* — Detailed expectations and grading criteria for Milestone 2
 
-*Update 2/3* — Updated detailed grading criteria for Milestone 2 to include `apint_compare`
+*Update 2/3* — Updated detailed grading criteria for Milestone 2 to include `apint_compare`, added bonus `apint_lshift` and `apint_lshift_n`
+
 
 # Overview
 
@@ -56,9 +57,14 @@ Grading breakdown for MS2:
 * `apint_sub` works for large values: 10%
 * `apint_compare` works for large values: 8%
 * Your unit tests are comprehensive (every function is tested, representative values are tested): 10%
-* Design and coding style: 10%
+* Design and coding style (including `README.txt`): 10%
 
 Note that `apint_create_from_u64`, `apint_negate`, `apint_is_negative`, and `apint_is_zero` must work correctly for large and small values because they are used in the unit tests for the other functions.  Also note that all of the tests for "large values" require `apint_create_from_hex` to work correctly.
+
+Grading breakdown for **OPTIONAL** bonus:
+
+* `apint_lshift` works: 5%
+* `apint_lshift_n` works: 5%
 
 ## Getting started
 
@@ -174,6 +180,22 @@ Here are brief descriptions of the expected behavior of these functions.
 `apint_sub`: Computes the difference `a` minus `b`, and returns a pointer to an `ApInt` instance representing the difference.  Note that either or both of the operand values could be negative.
 
 `apint_compare`: Compares the values represented by the `ApInt` instances pointed-to by the parameters `left` and `right`.  Returns a negative value if `left` is less that `right`, a positive value if `left` is greater than `right`, and 0 if the values are equal.  Note that either or both of the operand values could be negative.
+
+
+
+## BONUS (optional):
+
+Implement `apint_lshift` and `apint_lshift_n`
+
+```c
+ApInt *apint_lshift(ApInt *ap);
+ApInt *apint_lshift_n(ApInt *ap, unsigned n);
+```
+
+`apint_lshift`: Returns a pointer to an `ApInt` instance formed by shifting each bit of the `ApInt` instance pointed to by `ap` one bit position to the left.
+
+`apint_lshift_n`: Returns a pointer to an `ApInt` instance formed by shifting each bit of the `ApInt` instance pointed to by `ap` *n* bit positions to the left.  **Important**: your implementation of this function should *not* involve calling `apint_lshift` in a loop. However, your implementation for `apint_lshift` may involve calling `apint_lshift_n` with `n = 1`.
+
 
 # Tasks
 
@@ -323,7 +345,7 @@ To run valgrind, on your test program, the command is `valgrind ./apintTests`.
 
 # Submitting
 
-Before you submit, prepare a `README.txt` file so that it contains your names, and briefly summarizes each of your contributions to the submission (i.e., who worked on what functionality.)
+Before you submit, prepare a `README.txt` file so that it contains your names, and briefly summarizes each of your contributions to the submission (i.e., who worked on what functionality.) This may be very brief if you did not work with a partner.
 
 To submit your work:
 
