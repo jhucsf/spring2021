@@ -19,7 +19,9 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 5** — The [Syllabus](syllabus.html) has been updated with an update to the late policy (switching from late days to late hours), and to more fully describe how to earn participation credit.
 * **Feb 3** — [Assignment 1](assign/assign01.html) has been updated to include `apint_compare` in the detailed grading criteria for Milestone 2, and to include `apint_lshift` and `apint_lshift_n` as **optional** bonus.
+* **Feb 3** — [Assignment 1](assign/assign01.html) has been updated to include `apint_compare` in the detailed grading criteria for Milestone 2.
 * **Feb 2** — [Assignment 1](assign/assign01.html) has been updated with detailed grading criteria for Milestone 2.
 * **Jan 26** — [Assignment 1](assign/assign01.html) has been updated with detailed grading criteria for Milestone 1, and an additional requirement (a `README.txt` file) to be included with your submission.
 * **Jan 25** — Welcome back! [Assignment 1](assign/assign01.html) is posted, with milestones due on Feb 2nd and Feb 9th. It is a pair assignment.

@@ -10,6 +10,8 @@ category: "syllabus"
   <b>Spring, 2021 (3 credits, E)</b><br>
 </div>
 
+*Updated 2/5*: Change late days to late hours, describe how to earn participation credit
+
 ## Instructor
 
 [David Hovemeyer](https://www.cs.jhu.edu/~daveho)
@@ -125,9 +127,30 @@ Your course grade will be determined as follows:
 
 * Programming assignments: 55%
 * Exams: 40% (4 exams, each worth 10%)
-* Activities/quizzes: 5%
+* Participation: 5%
 
-You have a total of 7 late days to use as needed for homework assignments throughout the course, with the caveat that you may use at most 5 late days on any single assignment. Each 24 hour period following an assignment deadline is considered to be one late day: for example, if an assignment is due at 11pm on Friday, but you submit your assignment at 11:30pm on Friday, you have used one late day. If you are planning on using more than two late days on an assignment, please send a private message to the instructors on Piazza to let us know. Assignment submissions which exceed the maximum number of late days will (generally) not be considered for credit.  Having said that, we understand that exceptional circumstances can arise.  If you are in a situation where you think you may need additional late days, please notify your instructor.
+You have a total of 120 late hours to use as needed for homework
+assignments throughout the course. Each 60 minute period following an
+assignment deadline is considered to be one late hour: for example, if
+an assignment is due at 11pm on Friday, but you submit your assignment
+at 11:30pm on Friday, you have used one late hour. If you are planning
+on using more than 48 late hours on an assignment, please send a
+private message to the instructors on Piazza to let us know. Assignment
+submissions which exceed the maximum number of late hours will (generally)
+not be considered for credit.  Having said that, we understand that
+exceptional circumstances can arise.  If you are in a situation where you
+think you may need additional late hours, please notify your instructor.
+
+Activities counting towards participation credit include the following:
+
+* Attending the synchronous class sessions
+* Attending office hours
+* Asking and/or answering questions on Piazza
+* Watching lecture recording videos
+
+None of these activities are mandatory, but we expect that by the end of the semester 
+we will see that you have done at least one of the activities with reasonably
+frequency.
 
 ## Key Dates
 
