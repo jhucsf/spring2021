@@ -12,11 +12,12 @@ This section has links to some information resources you might find useful.
 
 ## Practice problems and exams
 
+* [Midterm, Spring 2020](resources/midterm-spring2020.pdf)
+* [Exam 1 practice questions](resources/exam1review.html)
+
 <!--
-* [Midterm, Spring 2020](resources/midterm-spring2020.pdf), [Solution](resources/midterm-spring2020-soln.pdf)
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)
 * [Final, Fall 2019](resources/final-fall2019.pdf), [Solution](resources/final-fall2019-soln.pdf)
-* [Exam 1 practice questions](resources/exam1review.html), [Answers](resources/exam1review-solutions.html)
 * [Assembly language exercise](exercise/assembly.html), [solution](exercise/asmExerciseSoln.zip)
 * [Assembly language exercise 2 (more challenging)](exercise/assembly2.html)
 * [Assembly language mini-exercises](exercise/assemblyMini.html)
@@ -24,8 +25,6 @@ This section has links to some information resources you might find useful.
 * [Exam 3 practice questions](resources/exam3review.html), [Answers](resources/exam3review-solutions.html)
 * [Exam 4 practice questions](resources/exam4review.html), [Answers](resources/exam4review-solutions.html)
 -->
-
-Coming soon!
 
 ## x86-64 assembly programming resources
 
