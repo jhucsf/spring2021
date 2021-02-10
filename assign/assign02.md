@@ -5,6 +5,8 @@ title: "Assignment 2: Postfix calculator"
 
 *Note: this assignment description will be updated soon to describe detailed grading criteria*
 
+*Update 2/10* — Fixed the `curl` command showing how to download the skeleton code
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
@@ -32,7 +34,7 @@ Get started by downloading [csf\_assign02.zip](csf_assign02.zip) and extracting 
 You can download this file from a Linux command prompt using the `curl` command:
 
 ```bash
-curl -O https://jhucsf.github.io/spring2020/assign/csf_assign02.zip
+curl -O https://jhucsf.github.io/spring2021/assign/csf_assign02.zip
 ```
 
 Note that in the `-O` option, it is the letter "O", not the numeral "0".

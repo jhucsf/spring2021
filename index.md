@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 10** — There was an error in the `curl` command shown in [Assignment 2](assign/assign02.html) for downloading the skeleton code zipfile. This has been fixed. If you used the original `curl` command, please download the skeleton again using the correct code.
 * **Feb 9** — [Assignment 2](assign/assign02.html) is posted, with milestones due Thursday, Feb 18th, Thursday, Feb 25th, and Thursday, Mar 4th.
 * **Feb 8** — There will be a review session for **Exam 1** on Monday, Feb 15th. The exam will be handed out at 11am that day, and will be due by 1pm on Tuesday, Feb 16th. The [Resources](resources.html) page has links to practice problems.
 * **Feb 5** — The [Syllabus](syllabus.html) has been updated with an update to the late policy (switching from late days to late hours), and to more fully describe how to earn participation credit.
