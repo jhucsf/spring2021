@@ -3,6 +3,8 @@ layout: default
 title: "Assignment 2: Postfix calculator"
 ---
 
+*Note: this assignment description will be updated soon to describe detailed grading criteria*
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
