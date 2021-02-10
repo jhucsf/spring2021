@@ -24,3 +24,4 @@ Please read the [style guidelines](assign/style.html) so that you know what our 
 Assignment | Type | Due
 ---------- | :--: | ---
 [Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Pair | MS1: due Tuesday, Feb 2nd by 11pm<br>MS2: due Tuesday, Feb 9th by 11pm
+[Assignment 2: Postfix calculator](assign/assign02.html) | Pair | MS1: due Thursday, Feb 18th by 11pm<br>MS2: due Thursday, Feb 25th by 11pm<br>MS3: due Thursday, Mar 4th by 11pm
