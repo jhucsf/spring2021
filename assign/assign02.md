@@ -41,13 +41,14 @@ curl -O https://jhucsf.github.io/spring2021/assign/csf_assign02.zip
 
 Note that in the `-O` option, it is the letter "O", not the numeral "0".
 
-*Update 2/11* — The [runTest.rb](assign02/runTest.rb) script was
-originally missing from the zipfile. If you need to download it to your
+*Update 2/11* — The [runTest.rb](assign02/runTest.rb) script and the
+[calctest.rb] were originally missing from the zipfile. If you need to download them to your
 project, run the following commands:
 
 ```bash
 curl -O https://jhucsf.github.io/spring2021/assign/assign02/runTest.rb
 chmod a+x runTest.rb
+curl -O https://jhucsf.github.io/spring2021/assign/assign02/calctest.rb
 ```
 
 # Postfix arithmetic
