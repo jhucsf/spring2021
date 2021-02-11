@@ -7,6 +7,8 @@ title: "Assignment 2: Postfix calculator"
 
 *Update 2/10* — Fixed the `curl` command showing how to download the skeleton code
 
+*Update 2/11* — Updated skeleton code to include missing [runTest.rb](assign02/runTest.rb) script
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
@@ -38,6 +40,15 @@ curl -O https://jhucsf.github.io/spring2021/assign/csf_assign02.zip
 ```
 
 Note that in the `-O` option, it is the letter "O", not the numeral "0".
+
+*Update 2/11* — The [runTest.rb](assign02/runTest.rb) script was
+originally missing from the zipfile. If you need to download it to your
+project, run the following commands:
+
+```bash
+curl -O https://jhucsf.github.io/spring2021/assign/assign02/runTest.rb
+chmod a+x runTest.rb
+```
 
 # Postfix arithmetic
 

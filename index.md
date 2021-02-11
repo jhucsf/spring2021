@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 11** — The skeleton file for [Assignment 2](assign/assign02.html) has been updated to include the missing [runTest.rb](assign/assign02/runTest.rb) file. Also, the [assignment description](assign/assign02.html) has been updated with a command to download it to your project.
 * **Feb 11** — The [coding style guidelines](assign/style.html) have been updated to be more specific about function length.
 * **Feb 10** — There was an error in the `curl` command shown in [Assignment 2](assign/assign02.html) for downloading the skeleton code zipfile. This has been fixed. If you used the original `curl` command, please download the skeleton again using the correct code.
 * **Feb 9** — [Assignment 2](assign/assign02.html) is posted, with milestones due Thursday, Feb 18th, Thursday, Feb 25th, and Thursday, Mar 4th.
