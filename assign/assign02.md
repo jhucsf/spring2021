@@ -11,6 +11,8 @@ title: "Assignment 2: Postfix calculator"
 
 *Update 2/12* — Clarify that `eval` function should be implemented in `cPostfixCalcEval.c` and `asmPostfixCalcEval.S`
 
+*Update 2/12* — Mention missing `Makefile` dependency and how to fix
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
@@ -51,6 +53,18 @@ project, run the following commands:
 curl -O https://jhucsf.github.io/spring2021/assign/assign02/runTest.rb
 chmod a+x runTest.rb
 curl -O https://jhucsf.github.io/spring2021/assign/assign02/calctest.rb
+```
+
+*Update 2/12* — The original `Makefile` was missing a dependency on line.  Originally, it read
+
+```
+cTests : cTests.o tctest.o cPostfixCalcFuncs.o
+```
+
+You should modify it to be
+
+```
+cTests : cTests.o tctest.o cPostfixCalcFuncs.o cPostfixCalcEval.o
 ```
 
 # Postfix arithmetic
