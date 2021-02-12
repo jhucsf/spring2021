@@ -9,6 +9,8 @@ title: "Assignment 2: Postfix calculator"
 
 *Update 2/11* — Updated skeleton code to include missing [runTest.rb](assign02/runTest.rb) script
 
+*Update 2/12* — Clarify that `eval` function should be implemented in `cPostfixCalcEval.c` and `asmPostfixCalcEval.S`
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
@@ -225,8 +227,8 @@ for various kinds of invalid expressions.
 
 Once you have the C postfix calculator fully working, you can move on to reimplementing it
 in x86-64 assembly language.  The requirements of this task are easy to describe:
-for each function in `cPostfixCalcFuncs.c`, you will need to implement an equivalent
-function in `asmPostfixCalcFuncs.S`.
+for each function in `cPostfixCalcFuncs.c` and `cPostfixCalcEval.c`, you will need to
+implement an equivalent function in `asmPostfixCalcFuncs.S` and `asmPostfixCalcEval.S`.
 
 You can build and run the unit test program to test your assembly language
 functions using the commands
@@ -259,8 +261,8 @@ should print the output
 Result is: -12
 </pre></div>
 
-You can run the system tasks you implemented in [Task 2]() against the assembly language
-postfix calculator using the command
+You can run the system tasks you implemented in [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)
+against the assembly language postfix calculator using the command
 
 <div class="highlighter-rouge"><pre>
 ./sysTests.sh ./asmPostfixCalc
