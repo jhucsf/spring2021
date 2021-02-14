@@ -12,8 +12,8 @@ This section has links to some information resources you might find useful.
 
 ## Practice problems and exams
 
-* [Midterm, Spring 2020](resources/midterm-spring2020.pdf)
-* [Exam 1 practice questions](resources/exam1review.html)
+* [Midterm, Spring 2020](resources/midterm-spring2020.pdf), [Solution](resources/midterm-spring2020-soln.pdf)
+* [Exam 1 practice questions](resources/exam1review.html), [Answers](resources/exam1review-solutions.html)
 
 <!--
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)

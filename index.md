@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 14** — Solutions to the practice problems for Exam 1 are available on the [Resources page](resources.html).
 * **Feb 12** — The assignment description for [Assignment 2](assign/assign02.html) has been updated to describe how to fix a missing dependency in the `Makefile`. (The [zipfile](assign/csf_assign02.zip) has also been updated with the fixed `Makefile`.)
 * **Feb 11** — The skeleton file for [Assignment 2](assign/assign02.html) has been updated to include the missing [runTest.rb](assign/assign02/runTest.rb) and [calctest.rb](assign/assign02/calctest.rb) file. Also, the [assignment description](assign/assign02.html) has been updated with commands to download them to your project.
 * **Feb 11** — The [coding style guidelines](assign/style.html) have been updated to be more specific about function length.
