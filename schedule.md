@@ -24,8 +24,8 @@ Feb 8              | ALU operations, arithmetic: [slides](lectures/lecture07-pub
 Feb 10             | Control flow: [slides](lectures/lecture08-public.pdf), [control.zip (example code)](lectures/control.zip) | 3.6 |
 Feb 12             | Procedures, stacks: [slides](lectures/lecture09-public.pdf), [control2.zip (example code)](lectures/control2.zip) | 3.7
 Feb 15             | Review session, **Exam 1** (take-home)
-Feb 17             | Assembly language in class exercise: [slides](lectures/assembly-public.pdf) | | A1, MS1 due Thurs 2/18
-Feb 19             | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystruct.zip (example code)](lectures/arraystruct.zip) | 3.8–3.9 |
+Feb 17             | Arrays and structs: [slides](lectures/lecture10-public.pdf), [arraystruct.zip (example code)](lectures/arraystruct.zip) | 3.8–3.9 | A1, MS1 due Thurs 2/18
+Feb 19             | Assembly language in class exercise: [slides](lectures/assembly-public.pdf) | |
 Feb 22             | Code and data interactions, buffer overflows: [slides](lectures/lecture11-public.pdf), [buf.zip (example code)](lectures/buf.zip) | 3.10
 Feb 24             | Program optimization (basic techniques): see Piazza for slides | 5.1–5.8 |
 Feb 26             | Pipelines: [slides](lectures/lecture13-public.pdf) | Patterson&amp;Hennessy 4.5–4.7 | A2, MS3 due Thurs 2/25
