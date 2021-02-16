@@ -19,6 +19,8 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 16** — [Assignment 2](assign/assign02.html) has been updated with detailed grading criteria for
+  Milestones 1 and 2.
 * **Feb 15** — The [Schedule](schedule.html) has been updated to move the in-class assembly language exercise to Friday, Feb 19th.
 * **Feb 14** — Solutions to the practice problems for Exam 1 are available on the [Resources page](resources.html).
 * **Feb 12** — The assignment description for [Assignment 2](assign/assign02.html) has been updated to describe how to fix a missing dependency in the `Makefile`. (The [zipfile](assign/csf_assign02.zip) has also been updated with the fixed `Makefile`.)

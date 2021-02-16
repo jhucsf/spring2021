@@ -13,6 +13,8 @@ title: "Assignment 2: Postfix calculator"
 
 *Update 2/12* — Mention missing `Makefile` dependency and how to fix
 
+*Update 2/16* — Detailed grading criteria for Milestones 1 and 2 are available
+
 Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
 
 Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
@@ -30,21 +32,39 @@ Milestone 1 grading breakdown (20% of assignment grade):
 
 Milestone 2 grading breakdown (10% of assignment grade):
 
-* Coming soon!
+* Unit tests of assembly language functions: 1%
+* At least 1 assembly language function fully working: 2%
+* At least 2 assembly language functions fully working: 2%
+* At least 3 assembly language functions fully working: 1%
+* At least 4 assembly language functions fully working: 1%
+* At least 5 assembly language functions fully working: 1%
+* At least 6 assembly language functions fully working: 1%
+* At least 7 assembly language functions fully working: 1%
 
 Milestone 3 grading breakdown (70% of assignment grade):
 
 * Coming soon!
 
-This is a challenging assignment.  Don't wait until the last minute to start it!  As usual, ask questions using Piazza, come to office hours, etc.
+This is a challenging assignment.  Don't wait until the last minute to
+start it!  As usual, ask questions using Piazza, come to office hours,
+etc.
 
-**Important**: When you write assembly code, you must *actually* write assembly code. Using the compiler to generate assembly code is *not* allowed.  In addition, we expect *highly detailed* code comments; in assembly lanuage programs, it's not unusual for *every* line of code to be commented.
+**Important**: When you write assembly code, you must *actually* write
+assembly code. Using the compiler to generate assembly code is *not*
+allowed.  In addition, we expect *highly detailed* code comments; in
+assembly lanuage programs, it's not unusual for *every* line of code to
+be commented.
 
-When you are done with this assignment you will have proved yourself capable of writing nontrivial x86-64 assembly code.  This is a foundational skill for hacking on operating systems and compilers, understanding security vulnerabilities such as buffer overflows, and generally becoming one with the machine.
+When you are done with this assignment you will have proved yourself
+capable of writing nontrivial x86-64 assembly code.  This is a
+foundational skill for hacking on operating systems and compilers,
+understanding security vulnerabilities such as buffer overflows, and
+generally becoming one with the machine.
 
 ## Getting started
 
-Get started by downloading [csf\_assign02.zip](csf_assign02.zip) and extracting it using the `unzip` command.
+Get started by downloading [csf\_assign02.zip](csf_assign02.zip) and
+extracting it using the `unzip` command.
 
 You can download this file from a Linux command prompt using the `curl` command:
 
@@ -78,17 +98,34 @@ cTests : cTests.o tctest.o cPostfixCalcFuncs.o cPostfixCalcEval.o
 
 # Postfix arithmetic
 
-Normally when we express arithmetic we use *infix notation*, where binary operators (such as +, -, etc.) are placed between their operands.  For example, to expression the addition of the operands 2 and 3, we would write
+Normally when we express arithmetic we use *infix notation*, where
+binary operators (such as +, -, etc.) are placed between their operands.
+For example, to expression the addition of the operands 2 and 3, we
+would write
 
 > `2 + 3`
 
-In *postfix notation* the operator comes *after* the operands, so adding 2 and 3 would be written
+In *postfix notation* the operator comes *after* the operands, so adding
+2 and 3 would be written
 
 > `2 3 +`
 
-Postfix notation has some advantages over infix notation: for example, parentheses are not necessary, since the order of operations is never ambiguous.  Postfix notation is also called [Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation).  It is famously used in [HP calculators](https://en.wikipedia.org/wiki/HP_calculators) and programming languages such as [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) and [PostScript](https://en.wikipedia.org/wiki/PostScript).
+Postfix notation has some advantages over infix notation: for example,
+parentheses are not necessary, since the order of operations is
+never ambiguous.  Postfix notation is also called [Reverse Polish
+notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation).
+It is famously used in [HP calculators](https://en.wikipedia.org/wiki/HP_calculators)
+and programming languages such as
+[Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) and
+[PostScript](https://en.wikipedia.org/wiki/PostScript).
 
-Evaluating postfix expressions using a program is very simple.  The program maintains a stack of values (initially empty).  The items (operands and operators) in the expression are processed in order.  Operands (e.g., literal values) are pushed onto the stack.  When an operator is encountered, its operand values are popped from the stack, the operator is applied to the operand values, and the result value is pushed onto the stack.  For example, consider the postfix expression
+Evaluating postfix expressions using a program is very simple.
+The program maintains a stack of values (initially empty).  The items
+(operands and operators) in the expression are processed in order.
+Operands (e.g., literal values) are pushed onto the stack.  When an
+operator is encountered, its operand values are popped from the stack,
+the operator is applied to the operand values, and the result value is
+pushed onto the stack.  For example, consider the postfix expression
 
 > `3 4 5 + *`
 
@@ -102,7 +139,11 @@ Item | Action
 `+`  | Pop operands 5 and 4, add them, push sum 9
 `*`  | Pop operands 9 and 3, multiply them, push product 27
 
-When any valid postfix expression is evaluated, the stack will have a single result value when the end of the expression is reached.  Also, valid postfix expressions will guarantee that operand values are always available on the stack when an operator is processed.  Here are some examples of *invalid* postfix expressions:
+When any valid postfix expression is evaluated, the stack will have a
+single result value when the end of the expression is reached.  Also,
+valid postfix expressions will guarantee that operand values are always
+available on the stack when an operator is processed.  Here are some
+examples of *invalid* postfix expressions:
 
 Expression | Why invalid
 ---------- | -----------
@@ -115,11 +156,16 @@ Expression | Why invalid
 
 The C version of the postfix calculator consists of three source files:
 
-* `cPostfixCalcMain.c`: This file contains the `main` function of the postfix calculator. This is provided for you. You should not modify this file.
-* `cPostfixCalcFuncs.c`: This file contains implementations of functions to implement the postfix caculator, with the exception of the `eval` function.
+* `cPostfixCalcMain.c`: This file contains the `main` function of the
+  postfix calculator. This is provided for you. You should not modify
+  this file.
+* `cPostfixCalcFuncs.c`: This file contains implementations of functions
+  to implement the postfix caculator, with the exception of the `eval`
+  function.
 * `cPostfixCalcMain.c`: This file contains the implementation of the `eval` function.
 
-Each function in `cPostfixCalcFuncs.c` and `cPostfixCalcMain.c` has detailed comments describing the expected behavior of the function.
+Each function in `cPostfixCalcFuncs.c` and `cPostfixCalcMain.c` has
+detailed comments describing the expected behavior of the function.
 
 The functions you are required to implement are:
 
@@ -137,10 +183,12 @@ long evalOp(int op, long left, long right);
 long eval(const char *s);
 ```
 
-The header file `cPostfixCalc.h` contains the C function prototypes for each required function,
-as well as definitions for the constant values returned by the `tokenType` function.
+The header file `cPostfixCalc.h` contains the C function prototypes for
+each required function, as well as definitions for the constant values
+returned by the `tokenType` function.
 
-The file `cTests.c` has reasonably extensive unit tests for each required function.  You can build the unit test program by running the command
+The file `cTests.c` has reasonably extensive unit tests for each required
+function.  You can build the unit test program by running the command
 
 ```
 make cTests
@@ -152,7 +200,8 @@ and run the test program by running the command
 ./cTests
 ```
 
-Once all of the functions are implemented, you can build the full calculator program by running the command
+Once all of the functions are implemented, you can build the full
+calculator program by running the command
 
 ```
 make cPostfixCalc
@@ -164,7 +213,8 @@ You can run the C version of the postfix calculator program using a command of t
 ./cPostfixCalc "<i>expression</i>"
 </pre></div>
 
-where *expression* is a postfix expression.  If the postfix expression is valid, the program will print a line of output of the form
+where *expression* is a postfix expression.  If the postfix expression
+is valid, the program will print a line of output of the form
 
 <div class="highlighter-rouge"><pre>
 Result is: <i>N</i>
@@ -184,7 +234,9 @@ and how the `cPostfixCalc` program should behave are as follows:
 
 * The expression will consist of positive integer literals and operators (+, -, \*, and /)
 * A sequence of one or more space (`' '`) or tab (`'\t'`) characters acts as a token separator
-* Operators will not necessarily be separated from other tokens by whitespace: for example, `2 3 4 5 +-*` is a valid expression which when evaluated yields the result `-12`
+* Operators will not necessarily be separated from other tokens by
+  whitespace: for example, `2 3 4 5 +-*` is a valid expression which when
+  evaluated yields the result `-12`
 * Leading and/or trailing whitespace should be ignored
 * All values should be represented using signed 64-bit integers (use the `long` C data type)
 * All operators should be evaluated using the usual C semantics for operations on `long` values
