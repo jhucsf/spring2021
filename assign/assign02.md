@@ -23,9 +23,18 @@ Milestone 3 ([Task 3](#task-3-implementation-of-assembly-language-functions) and
 
 In this assignment, you will implement a postfix calculator program in C and x86-64 assembly language.
 
-The grading breakdown is:
+Milestone 1 grading breakdown (20% of assignment grade):
 
-* Detailed milestone requirements and grading breakdowns coming soon!
+* `cPostfixCalc` functionality: 10%
+* Correctness of individual functions: 10%
+
+Milestone 2 grading breakdown (10% of assignment grade):
+
+* Coming soon!
+
+Milestone 3 grading breakdown (70% of assignment grade):
+
+* Coming soon!
 
 This is a challenging assignment.  Don't wait until the last minute to start it!  As usual, ask questions using Piazza, come to office hours, etc.
 
