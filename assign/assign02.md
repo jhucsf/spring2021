@@ -162,7 +162,7 @@ The C version of the postfix calculator consists of three source files:
 * `cPostfixCalcFuncs.c`: This file contains implementations of functions
   to implement the postfix caculator, with the exception of the `eval`
   function.
-* `cPostfixCalcMain.c`: This file contains the implementation of the `eval` function.
+* `cPostfixCalcEval.c`: This file contains the implementation of the `eval` function.
 
 Each function in `cPostfixCalcFuncs.c` and `cPostfixCalcMain.c` has
 detailed comments describing the expected behavior of the function.
