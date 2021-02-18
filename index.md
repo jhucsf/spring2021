@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 17** — Some assembly language exercises (for practice) have been added to the [Resources](resources.html) page.
 * **Feb 16** — [Assignment 2](assign/assign02.html) has been updated with detailed grading criteria for
   Milestones 1 and 2.
 * **Feb 15** — The [Schedule](schedule.html) has been updated to move the in-class assembly language exercise to Friday, Feb 19th.
