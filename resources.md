@@ -17,6 +17,7 @@ This section has links to some information resources you might find useful.
 * [Assembly language mini-exercises](resources/assemblyMini.html)
 * [Assembly language exercise](resources/assembly.html), [solution](resources/asmExerciseSoln.zip)
 * [Assembly language exercise 2 (more challenging)](resources/assembly2.html)
+* [Zipfile for in-class assembly language exercise](resources/assembly_exercise.zip)
 
 <!--
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)

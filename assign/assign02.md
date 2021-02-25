@@ -3,8 +3,6 @@ layout: default
 title: "Assignment 2: Postfix calculator"
 ---
 
-*Note: this assignment description will be updated soon to describe detailed grading criteria*
-
 *Update 2/10* — Fixed the `curl` command showing how to download the skeleton code
 
 *Update 2/11* — Updated skeleton code to include missing [runTest.rb](assign02/runTest.rb) script
@@ -15,11 +13,15 @@ title: "Assignment 2: Postfix calculator"
 
 *Update 2/16* — Detailed grading criteria for Milestones 1 and 2 are available
 
-Milestone 1 ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
+*Update 2/25* — One more `Makefile` fix, and added detailed grading criteria for Milestone 3
 
-Milestone 2: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
+Due dates:
 
-Milestone 3 ([Task 3](#task-3-implementation-of-assembly-language-functions) and optional [Task 4](#task-4-optional-implement-the-main-function-is-assembly-language)): due Thurs, Mar 4th by 11pm
+**Milestone 1** ([Task 1](#task-1-c-implementation-of-the-postfix-calculator) and [Task 2](#task-2-system-tests-for-the-c-postfix-calculator)): due Thurs, Feb 18th by 11pm
+
+**Milestone 2**: ([Task 3](#task-3-implementation-of-assembly-language-functions) started): due Thurs, Feb 25th by 11pm
+
+**Milestone 3** ([Task 3](#task-3-implementation-of-assembly-language-functions) and optional [Task 4](#task-4-optional-implement-the-main-function-is-assembly-language)): due Thurs, Mar 4th by 11pm
 
 # Overview
 
@@ -43,7 +45,11 @@ Milestone 2 grading breakdown (10% of assignment grade):
 
 Milestone 3 grading breakdown (70% of assignment grade):
 
-* Coming soon!
+* Unit tests for assembly language functions: 20%
+* `asmPostfixCalc` functionality: 30%
+* Quality and comprehensiveness of your system tests (`sysTests.sh`): 10%
+* Design and coding style: 10%
+* Assembly language main function (extra credit): 2%
 
 This is a challenging assignment.  Don't wait until the last minute to
 start it!  As usual, ask questions using Piazza, come to office hours,

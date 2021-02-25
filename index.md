@@ -19,6 +19,8 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Feb 25** — Detailed grading criteria for Milestone 3 of [Assignment 2](assign/assign02.html) are available. Also, there is a `Makefile` correction you will need to apply.
+* **Feb 19** — The zipfile for today's in-class assembly language exercises is on the [Resources](resources.html) page. (You'll only need it if you want to work on the exercise after class.)
 * **Feb 17** — Some assembly language exercises (for practice) have been added to the [Resources](resources.html) page.
 * **Feb 16** — [Assignment 2](assign/assign02.html) has been updated with detailed grading criteria for
   Milestones 1 and 2.
