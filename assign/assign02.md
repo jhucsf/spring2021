@@ -45,7 +45,7 @@ Milestone 2 grading breakdown (10% of assignment grade):
 
 Milestone 3 grading breakdown (70% of assignment grade):
 
-* Unit tests for assembly language functions: 20%
+* Autograder unit tests for assembly language functions: 20%
 * `asmPostfixCalc` functionality: 30%
 * Quality and comprehensiveness of your system tests (`sysTests.sh`): 10%
 * Design and coding style: 10%
