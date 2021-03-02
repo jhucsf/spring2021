@@ -53,11 +53,11 @@ Mar 26             | Memory management, address translation: [slides](lectures/l
 Mar 29             | Memory mapping, dynamic memory allocation: [slides](lectures/lecture24-public.pdf) | 9.8, 9.9, 9.11 |
 Mar 31             | Review session, **Exam 3** (take-home) | |
 Apr 2              | Unix I/O, files: [slides](lectures/lecture25-public.pdf) | 10.1–10.11 |
-Apr 5              | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | 11.1–11.3 | <span class="tentative">A4 due</span>
+Apr 5              | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | 11.1–11.3 | <span class="tentative">A4 due Tues 4/6</span>
 Apr 7              | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf), [sockets.zip (example code)](lectures/sockets.zip) | 11.4 |
 Apr 9              | Network applications, HTTP: [slides](lectures/lecture28-public.pdf), [webserver.zip (example code)](lectures/webserver.zip) | 11.4–11.6 | 
-Apr 12             | *Spring break day, no class*
-Apr 14             | Concurrency with processes: [slides](lectures/lecture29-public.pdf), [mp\_webserver.zip (example code)](lectures/mp_webserver.zip) | 12.1 | <span class="tentative">A5 due</span>
+Apr 12             | Concurrency with processes: [slides](lectures/lecture29-public.pdf), [mp\_webserver.zip (example code)](lectures/mp_webserver.zip) | 12.1 | <span class="tentative">A5 due Tues 4/13</span>
+Apr 14             | *Spring break day, no class*
 Apr 16             | Concurrency with threads: [slides](lectures/lecture30-public.pdf), [mt\_webserver.zip (example code)](lectures/mt_webserver.zip), [mandelbrot.zip (example code)](lectures/mandelbrot.zip) | 12.3 | 
 Apr 19             | Thread synchronization: [slides](lectures/lecture31-public.pdf), [synch.zip (example code)](lectures/synch.zip) | 12.4–12.5
 Apr 21             | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 | <span class="tentative">A6, MS1 due</span>
