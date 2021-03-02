@@ -7,11 +7,14 @@ title: "Assignment 3: Cache simulator"
 
 * *Milestone 1*: Wednesday, March 10 by 11pm (no late hours)
 * *Milestone 2*: Friday, March 19 by 11pm (no late hours)
-* *Final due date*: Tuesday, March 23th by 11pm (max 48 late hours; more with permission only)
+* *Final due date*: Wednesday, March 24th by 11pm (max 48 late hours; more with permission only)
 
 **Collaboration**: Pairs (groups of 2) or independent.
 
-**Late day usage**: Up to 2 late days (48 late hours) without requesting special permission (**both partners must have late days to use**). If you anticipate using more than 48 late hours, please post privately on Piazza to request permission.
+**Late day usage**: Up to 2 late days (48 late hours) without requesting
+special permission (**both partners must have late days to use**). If
+you anticipate using more than 48 late hours, please post privately on
+Piazza to request permission.
 
 # Cache simulator
 
@@ -29,9 +32,14 @@ determine the **best overall cache configuration**.
 ## Submission Part 1
 **Due date 1:** Wednesday, March 10 by 11pm (5 points)
 
-For this submission, you must have started working on your code and have at least one submission uploaded to [Gradescope](https://www.gradescope.com).
+For this submission, you must have started working on
+your code and have at least one submission uploaded to
+[Gradescope](https://www.gradescope.com).
 
-A good idea would be to make sure that reading traces works correctly.  Getting some of the core data structures and functions in place to do the actual cache simulation would also be a great idea, even if they're not fully implemented yet.
+A good idea would be to make sure that reading traces works correctly.
+Getting some of the core data structures and functions in place to do
+the actual cache simulation would also be a great idea, even if they're
+not fully implemented yet.
 
 ## Submission Part 2
 **Due date 2:** Friday, March 19 by 11pm (15 points)
@@ -43,10 +51,10 @@ For this submission, you must have implemented your cache simulation for LRU.
 
 All functions must be written with full assignment specifications met.
 
-
 ## Grading criteria
 
-Milestone grades will be determined as a combination of effort and code functionality. Your final grade will be determined as follows:
+Milestone grades will be determined as a combination of effort and code
+functionality. Your final grade will be determined as follows:
 
 * Gracefully handling invalid parameters: 1.5%
 * Accurate load count: 7.5%
@@ -60,11 +68,15 @@ Milestone grades will be determined as a combination of effort and code function
 * Design, coding style, and contributions: 10%
 * Effort shown in Milestone 1: 10%
 
-For the numeric results, the `Total cycles` output only needs to be within &plusmn;10%, while the other results must be exact.
+For the numeric results, the `Total cycles` output only needs to be
+within &plusmn;10%, while the other results must be exact.
 
 Make sure you follow the [style guidelines](style.html).
 
-Your program should execute without memory errors or memory leaks.  Memory errors such as invalid reads or write, or uses of uninitialized memory, will result in a deduction of up to 10 points.  Memory leaks will result in a deduction of up to 5 points.
+Your program should execute without memory errors or memory leaks.
+Memory errors such as invalid reads or write, or uses of uninitialized
+memory, will result in a deduction of up to 10 points.  Memory leaks
+will result in a deduction of up to 5 points.
 
 ## Programming Languages
 
@@ -293,7 +305,9 @@ In your `README`, describe in detail what experiments you ran (and
 why\!), what results you got (and how\!), and what, in your opinion, is
 the best cache configuration of them all.
 
-Finally, you will write a brief summary of how you divided up the work between partners and what each person contributed. This section is not required if you worked alone.
+Finally, you will write a brief summary of how you divided up the work
+between partners and what each person contributed. This section is not
+required if you worked alone.
 
 ### Credits
 
