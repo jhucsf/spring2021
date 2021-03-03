@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Mar 3** — Review problems for **Exam 2** are available on the [Resources](resources.html) page. We will have a review session on Wednesday, Mar 10th, and the exam will be available at 11am that day.
 * **Feb 25** — Detailed grading criteria for Milestone 3 of [Assignment 2](assign/assign02.html) are available. Also, there is a `Makefile` correction you will need to apply.
 * **Feb 19** — The zipfile for today's in-class assembly language exercises is on the [Resources](resources.html) page. (You'll only need it if you want to work on the exercise after class.)
 * **Feb 17** — Some assembly language exercises (for practice) have been added to the [Resources](resources.html) page.
