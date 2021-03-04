@@ -4,13 +4,22 @@ title: "Schedule"
 category: "schedule"
 ---
 
-This page lists topics, readings, and has links to lecture slides.  It also lists assignment due dates.
+This page lists topics, readings, and has links to lecture slides.
+It also lists assignment due dates.  Dates <span class="tentative">in
+gray</span> are tentative.
 
-This schedule could (and probably will) change!  Changes to the schedule will be announced in class and/or on [Piazza](https://piazza.com/jhu/spring2021/601229).
+This schedule could (and probably will) change!  Changes
+to the schedule will be announced in class and/or on
+[Piazza](https://piazza.com/jhu/spring2021/601229).
 
-Unless otherwise indicated, readings are from Bryant and O'Hallaron, [Computer Systems: A Programmer's Perspective, 3rd ed](https://csapp.cs.cmu.edu/).  **Important**: do the reading *before* you come to class.
+Unless otherwise indicated, readings are from Bryant and
+O'Hallaron, [Computer Systems: A Programmer's Perspective, 3rd
+ed](https://csapp.cs.cmu.edu/).  **Important**: do the reading *before*
+you come to class.
 
-The links to slides are provided for reference.  In general, there is no guarantee that they will be posted before class, or that their content will not change.
+The links to slides are provided for reference.  In general, there is no
+guarantee that they will be posted before class, or that their content
+will not change.
 
 Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Topic/Slides | Reading | Assignment
 ------------------ | ------------ | ------- | ----------
@@ -33,28 +42,28 @@ Mar 1              | Program optimization (ILP, memory, profiling): see Piazza f
 Mar 3              | Memory hierarchy: [slides](lectures/lecture15-public.pdf) | 6.1–6.3 | A2, MS3 due Thurs 3/4
 Mar 5              | Cache policies: [slides](lectures/lecture16-public.pdf) | 6.4
 Mar 8              | Caches and program execution: see Piazza for slides | 6.5 |
-Mar 10             | Review session, **Exam 2** (take-home)
+Mar 10             | Review session, **Exam 2** (take-home) | | A3, MS1 due
 Mar 12             | Linking basics, symbols, relocations, executables, loading: [slides](lectures/lecture18-public.pdf) | 7.1–7.9 |
 Mar 15             | Dynamic linking, shared libraries, PIC, interpositioning: [slides](lectures/lecture19-public.pdf), [dynload.zip (example code)](lectures/dynload.zip) | 7.10–7.15 |
 Mar 17             | Exceptions, Processes: [slides](lectures/lecture20-public.pdf) | 8.1–8.4, 8.7 |
-Mar 19             | Signals: [slides](lectures/lecture21-public.pdf), [signals.zip (example code)](lectures/signals.zip) | 8.5–8.6 |
+Mar 19             | Signals: [slides](lectures/lecture21-public.pdf), [signals.zip (example code)](lectures/signals.zip) | 8.5–8.6 | A3, MS2 due
 Mar 22             | *Spring break day, no class*
-Mar 24             | Virtual memory: [slides](lectures/lecture22-public.pdf) | 9.1–9.3 | 
+Mar 24             | Virtual memory: [slides](lectures/lecture22-public.pdf) | 9.1–9.3 | A3, MS3 due
 Mar 26             | Memory management, address translation: [slides](lectures/lecture23-public.pdf) | 9.4–9.7
 Mar 29             | Memory mapping, dynamic memory allocation: [slides](lectures/lecture24-public.pdf) | 9.8, 9.9, 9.11 |
-Mar 31             | Review session, **Exam 3** (take-home)
+Mar 31             | Review session, **Exam 3** (take-home) | |
 Apr 2              | Unix I/O, files: [slides](lectures/lecture25-public.pdf) | 10.1–10.11 |
-Apr 5              | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | 11.1–11.3 |
-Apr 7              | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf), [sockets.zip (example code)](lectures/sockets.zip) | 11.4 | 
+Apr 5              | Networks, Internet Protocol: [slides](lectures/lecture26-public.pdf) | 11.1–11.3 | <span class="tentative">A4 due Tues 4/6</span>
+Apr 7              | Sockets, Application Protocols: [slides](lectures/lecture27-public.pdf), [sockets.zip (example code)](lectures/sockets.zip) | 11.4 |
 Apr 9              | Network applications, HTTP: [slides](lectures/lecture28-public.pdf), [webserver.zip (example code)](lectures/webserver.zip) | 11.4–11.6 | 
-Apr 12             | *Spring break day, no class*
-Apr 14             | Concurrency with processes: [slides](lectures/lecture29-public.pdf), [mp\_webserver.zip (example code)](lectures/mp_webserver.zip) | 12.1 |
+Apr 12             | Concurrency with processes: [slides](lectures/lecture29-public.pdf), [mp\_webserver.zip (example code)](lectures/mp_webserver.zip) | 12.1 | <span class="tentative">A5 due Tues 4/13</span>
+Apr 14             | *Spring break day, no class*
 Apr 16             | Concurrency with threads: [slides](lectures/lecture30-public.pdf), [mt\_webserver.zip (example code)](lectures/mt_webserver.zip), [mandelbrot.zip (example code)](lectures/mandelbrot.zip) | 12.3 | 
 Apr 19             | Thread synchronization: [slides](lectures/lecture31-public.pdf), [synch.zip (example code)](lectures/synch.zip) | 12.4–12.5
-Apr 21             | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 |
+Apr 21             | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 | <span class="tentative">A6, MS1 due</span>
 Apr 23             | Parallelism, concurrency issues: [slides](lectures/lecture33-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | 12.6–12.7 |
 Apr 26             | Bonus topics | | 
-Apr 28             | Final exam review session | |
+Apr 28             | Final exam review session | | <span class="tentative">A6, MS1 due</span>
 TBD                | **Exam 4** (take-home, during final exam period)
 
 <!--

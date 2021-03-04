@@ -148,6 +148,10 @@ code.highlighter-rouge {
 	margin-bottom: 2em;
 }
 
+.tentative {
+	color: gray;
+}
+
 /*
 vim:ts=2:
 */
