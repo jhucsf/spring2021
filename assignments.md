@@ -25,3 +25,4 @@ Assignment | Type | Due
 ---------- | :--: | ---
 [Assignment 1: Arbitrary-precision arithmetic](assign/assign01.html) | Pair | MS1: due Tuesday, Feb 2nd by 11pm<br>MS2: due Tuesday, Feb 9th by 11pm
 [Assignment 2: Postfix calculator](assign/assign02.html) | Pair | MS1: due Thursday, Feb 18th by 11pm<br>MS2: due Thursday, Feb 25th by 11pm<br>MS3: due Thursday, Mar 4th by 11pm
+[Assignment 3: Cache simulator](assign/assign03.html) | Pair | MS1: due Wednesday, Mar 10th by 11pm<br>MS2: due Friday, Mar 19th by 11pm<br>MS3: due Wednesday, Mar 24th by 11pm

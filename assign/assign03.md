@@ -317,10 +317,11 @@ Steven\!
 
 ## Submitting
 
-Create a zipfile that has your `Makefile`, source and header files, and
-`README` file. All of the files should be in the top level directory of
-the zipfile. As an example, if your zipfile is called `assign3.zip`, the
-command `unzip -l assign3.zip` might produce the following output:
+For each milestone submission, create a zipfile that has your `Makefile`,
+source and header files, and `README` file. All of the files should
+be in the top level directory of the zipfile. As an example, if your
+zipfile is called `assign3.zip`, the command `unzip -l assign3.zip`
+might produce the following output:
 
 ```
 Archive:  assign3.zip
@@ -336,4 +337,5 @@ Archive:  assign3.zip
 Your exact output will almost certainly differ, for example, depending on
 how you structured your cache simulator program.
 
-Upload your zipfile to [Gradescope](https://www.gradescope.com) as **Assignment3**.
+Upload your zipfile to [Gradescope](https://www.gradescope.com) as **Assignment 3 MS1**,
+**Assignment 3 MS2**, or **Assignment 3 MS3** as appropriate (depending on the milestone).
