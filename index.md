@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Mar 19** — The due date for Milestone 2 of [Assignment 3](assign/assign03.html) has been moved to Saturday, March 20th by 11pm.
 * **Mar 8** — Solutions to the Exam 2 review problems are available on the [Resources](resources.html) page.
 * **Mar 4** — [Assignment 3](assign/assign03.html) is available.  The first milestone is due Wednesday, March 10th. See the assignment description for the other milestone due dates.
 * **Mar 3** — Review problems for **Exam 2** are available on the [Resources](resources.html) page. We will have a review session on Wednesday, Mar 10th, and the exam will be available at 11am that day.

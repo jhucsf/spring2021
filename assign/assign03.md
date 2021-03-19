@@ -6,7 +6,7 @@ title: "Assignment 3: Cache simulator"
 **Due**:
 
 * *Milestone 1*: Wednesday, March 10 by 11pm (no late hours)
-* *Milestone 2*: Friday, March 19 by 11pm (no late hours)
+* *Milestone 2*: <strike>Friday, March 19</strike> Saturday, March 20 by 11pm (no late hours)
 * *Final due date*: Wednesday, March 24th by 11pm (max 48 late hours; more with permission only)
 
 **Collaboration**: Pairs (groups of 2) or independent.
