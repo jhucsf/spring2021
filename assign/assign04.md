@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 4: Image processing with plugins"
 ---
 
-**Due**: Tuesday, April 4th by 11pm
+**Due**: Tuesday, April 6th by 11pm
 
 **Assignment type**: Pair (you may work with one partner, or do the assignment individually)
 
