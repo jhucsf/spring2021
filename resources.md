@@ -19,8 +19,9 @@ This section has links to some information resources you might find useful.
 * [Assembly language exercise 2 (more challenging)](resources/assembly2.html)
 * [Zipfile for in-class assembly language exercise](resources/assembly_exercise.zip)
 * [Exam 2 practice questions](resources/exam2review.html), [Answers](resources/exam2review-solutions.html)
-* [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf) (Q1 is relevant for Exam 2)
-* [Final, Fall 2019](resources/final-fall2019.pdf), [Solution](resources/final-fall2019-soln.pdf) (Q2 and Q3a are relevant for Exam 2)
+* [Exam 3 practice questions](resources/exam3review.html)
+* [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf) (Q2 and Q3 are relevant for Exam 3)
+* [Final, Fall 2019](resources/final-fall2019.pdf), [Solution](resources/final-fall2019-soln.pdf) (Q3b and Q4 are relevant for Exam 3)
 
 <!--
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)
