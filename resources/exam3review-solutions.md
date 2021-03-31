@@ -35,7 +35,7 @@ One advantage of implementing calls as relative displacements is that the call i
 
 **Possible answer:**
 
-Implement a shared library that defines an `open` function which does the desired transformation on the pathname, and then calls the "real" `open` system call, either by calling the wrapper function in the shared C library (`dlopen` and `dlsym` can be used to get the address of this function), or by using a `syscall` instruction.  This shared library can then be interposed using `LD_LIBRARY_PATH`, so that calls to `open` in the executable are redirected to the "instrumented" version of `open` in the shared library we created.
+Implement a shared library that defines an `open` function which does the desired transformation on the pathname, and then calls the "real" `open` system call, either by calling the wrapper function in the shared C library (`dlopen` and `dlsym` can be used to get the address of this function), or by using a `syscall` instruction.  This shared library can then be interposed using `LD_PRELOAD, so that calls to `open` in the executable are redirected to the "instrumented" version of `open` in the shared library we created.
 
 ## B. Exceptions and processes
 
@@ -117,7 +117,7 @@ Note that we would only be using half of the available entries at each level.  A
 
 Level 0 index | Level 1 index | Level 2 index | Level 3 index | Level 4 index | Page offset
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :---------:
-6 bits        | 11 bits       | 11 bits       | 11 bits       | 11 bits       | 11 bits
+6 bits        | 11 bits       | 11 bits       | 11 bits       | 11 bits       | 14 bits
 
 (c) Explain why, from a practical standpoint, it might be a good idea to support an effective virtual address space of less than 2<sup>64</sup> bytes.
 
