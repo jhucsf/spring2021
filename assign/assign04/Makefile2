@@ -17,7 +17,7 @@ PLUGIN_C_SRCS = swapbg.c
 PLUGIN_CXX_SRCS =  mirrorh.cpp mirrorv.cpp tile.cpp expose.cpp
 
 DRIVER_OBJS = $(DRIVER_C_SRCS:%.c=%.o) $(DRIVER_CXX_SRCS:%.cpp=%.o)
-PLUGINS = $(PLUGIN_C_SRCS:%.c=plugins/%.so) $(PLUGIN_CXX_SRCS:%.cpp=%.o)
+PLUGINS = $(PLUGIN_C_SRCS:%.c=plugins/%.so) $(PLUGIN_CXX_SRCS:%.cpp=plugins/%.so)
 
 %.o : %.c
 	$(CC) $(CFLAGS) -c $*.c -o $*.o
