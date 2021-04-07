@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **April 7** — [Assignment 5](assign/assign05.html) is available. It is due Tuesday, April 13th by 11pm.
 * **Mar 31** — Mistakes in the [Exam 3 review problem solutions](resources/exam3review-solutions.html) have been corrected.
 * **Mar 30** — Answers to the Exam 3 review problems are available on the [Resources](resources.html) page.
 * **Mar 26** — Review problems for **Exam 3** are available on the [Resources](resources.html) page.  There will be a review session on Wednesday, Mar 31st, and the exam will be available that day.
