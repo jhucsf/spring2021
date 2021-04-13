@@ -28,3 +28,4 @@ Assignment | Type | Due
 [Assignment 3: Cache simulator](assign/assign03.html) | Pair | MS1: due Wednesday, Mar 10th by 11pm<br>MS2: due Friday, Mar 19th by 11pm<br>MS3: due Wednesday, Mar 24th by 11pm
 [Assignment 4: Image processing with plugins](assign/assign04.html) | Pair | Tuesday, April 6th by 11pm
 [Assignment 5: Network calculator](assign/assign05.html) | Pair | Tuesday, April 13th by 11pm
+[Assignment 6: Multithreaded network calculator](assign/assign06.html) | Pair | MS1: due Wednesday, Apr 21st by 11pm<br>MS2: due Wednesday, Apr 28th by 11pm
