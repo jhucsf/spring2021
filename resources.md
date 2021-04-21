@@ -22,6 +22,8 @@ This section has links to some information resources you might find useful.
 * [Exam 3 practice questions](resources/exam3review.html), [Answers](resources/exam3review-solutions.html)
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf) (Q2 and Q3 are relevant for Exam 3)
 * [Final, Fall 2019](resources/final-fall2019.pdf), [Solution](resources/final-fall2019-soln.pdf) (Q3b and Q4 are relevant for Exam 3)
+* [Exam 4 practice questions](resources/exam4review.html)
+* [Exam 4, Fall 2020](resources/exam04-fall2020.pdf)
 
 <!--
 * [Final, Spring 2020](resources/final-spring2020.pdf), [Solution](resources/final-spring2020-soln.pdf)
