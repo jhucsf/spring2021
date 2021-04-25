@@ -60,10 +60,10 @@ Apr 12             | Concurrency with processes: [slides](lectures/lecture29-pub
 Apr 14             | *Spring break day, no class*
 Apr 16             | Concurrency with threads: [slides](lectures/lecture30-public.pdf), [mt\_webserver.zip (example code)](lectures/mt_webserver.zip), [mandelbrot.zip (example code)](lectures/mandelbrot.zip) | 12.3 | 
 Apr 19             | Thread synchronization: [slides](lectures/lecture31-public.pdf), [synch.zip (example code)](lectures/synch.zip) | 12.4–12.5
-Apr 21             | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 | <span class="tentative">A6, MS1 due</span>
+Apr 21             | Concurrency with I/O multiplexing: [slides](lectures/lecture32-public.pdf), [iomux.zip (example code)](lectures/iomux.zip) | 12.2 | A6, MS1 due
 Apr 23             | Parallelism, concurrency issues: [slides](lectures/lecture33-public.pdf), [synch2.zip (example code)](lectures/synch2.zip) | 12.6–12.7 |
 Apr 26             | Bonus topics: [slides](lectures/lecture34-public.pdf), [bonus.zip (example code)](lectures/bonus.zip) | | 
-Apr 28             | Final exam review session | | <span class="tentative">A6, MS1 due</span>
+Apr 28             | Final exam review session | | A6, MS1 due
 TBD                | **Exam 4** (take-home, during final exam period)
 
 <!--
