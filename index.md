@@ -19,6 +19,7 @@ Use the links above to navigate the site.  The [Syllabus](syllabus.html) describ
 
 ## News
 
+* **Apr 28** — A mistake in part (C) of the [Exam 4 review problem solutions](resources/exam4review-solutions.html) has been corrected.
 * **Apr 26** — Solutions to the Exam 4 review problems are available on the [Resources](resources.html) page.
 * **Apr 21** — Exam 4 review materials are available on the [Resources](resources.html) page. Also, please use the bonus topics survey (see Piazza post 813 for the link) to suggest "bonus topics" to cover on Monday, April 26th.
 * **Apr 13** — [Assignment 6](assign/assign06.html) is available. It has two milestones. Milestone 1 is due Wednesday, April 21st by 11pm, and Milestone 2 is due Wednesday, April 28th by 11pm.
